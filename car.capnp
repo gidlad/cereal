@@ -198,6 +198,10 @@ struct CarState {
   leftBlindspot @33 :Bool; # Is there something blocking the left lane change
   rightBlindspot @34 :Bool; # Is there something blocking the right lane change
 
+  tempParam0 @41 :Float32;
+  tempParam1 @42 :Float32;
+  tempParam2 @43 :Float32;
+
   struct WheelSpeeds {
     # optional wheel speeds
     fl @0 :Float32;
