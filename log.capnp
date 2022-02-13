@@ -319,6 +319,7 @@ struct DeviceState @0xa4d8b5af2aa492eb {
   modemTempC @36 :List(Float32);
   pmicTempC @39 :List(Float32);
   thermalZones @38 :List(ThermalZone);
+  geoRecordingOff @42 :Bool;
   thermalStatus @14 :ThermalStatus;
 
   fanSpeedPercentDesired @10 :UInt16;
